@@ -1,0 +1,92 @@
+.dashboard-home{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   
+}
+.dashboard-cards{
+    display: flex;
+    gap:50px;
+}.card{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 20px;
+  width: 100%;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px;
+
+}
+.card-header{
+  display: flex;
+  gap: 90px;
+}
+.card-pragraph2{
+    font-size: 12px;
+    color: gray;
+}
+
+.dashboard-buttons{
+    display: flex;
+    gap: 140px;
+}
+
+.button-home1,.button-home2,.button-home3{
+    display: flex;
+    justify-content: center;
+
+    color: white;
+    gap: 10px;
+    padding:10px;
+    width: 15rem;
+    border-radius: 5px;
+    border: none;
+}
+.button-home1{
+    background-color: rgb(0, 153, 255);
+}
+.button-home2{
+    background-color: #1F2937;
+}
+.button-home3{
+    background-color: #059669;
+}
+
+.activity-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 2px;
+    border-radius: 5px;
+    width: 98%;
+}
+
+.activity-card1{
+    display: flex;
+    gap: 10px;
+    background-color: #FFFFFF;
+    border-radius: 7px;
+    padding: 10px;
+     box-shadow: 0px 0px 1px;
+}
+.activity-card1-icon1{
+    color: #059669;
+}
+.activity-card1-icon2{
+color: blue;
+}
+.activity-card1-icon3{
+   color: aqua; 
+}
+.activity-paragraph{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.activity-paragraph-p{
+color: #bdbaba;
+font-size: 12px;
+}

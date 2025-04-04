@@ -1,0 +1,40 @@
+.nav{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+    width: 97.5%;
+    background-color: rgb(37,43,49);
+    background-color:white;
+    box-shadow: 0px 0px 1px;
+   
+}
+.input-profile{
+    display: flex;
+}
+.header-input{
+    width: 30%;
+    height: 30px;
+    border: 1px solid rgb(180, 172, 172);
+    border-radius: 5px;
+}
+.logo{
+    display: flex;
+    gap: 6px;
+}
+.logo p{
+    font-size: 15px;
+    font-weight: bold;
+}
+.profile{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.profile-image{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    
+}

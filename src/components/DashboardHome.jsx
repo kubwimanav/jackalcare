@@ -65,7 +65,7 @@ function DashboardHome() {
         <div className="activity-card1">
           <MdOutlineSportsKabaddi className="activity-card1-icon2" />
           <div className="activity-paragraph">
-            <p>Prescription Renewed</p>
+            <p>Check-up Completed</p>
             <p className="activity-paragraph-p">
               Dr. Michael Brown - 2 days ago
             </p>
@@ -74,7 +74,7 @@ function DashboardHome() {
         <div className="activity-card1">
           <MdOutlineSportsKabaddi className="activity-card1-icon3" />
           <div className="activity-paragraph">
-            <p>Prescription Renewed</p>
+            <p>Lab Results Available</p>
             <p className="activity-paragraph-p">
               Dr. Michael Brown - 2 days ago
             </p>

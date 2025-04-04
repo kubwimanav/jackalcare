@@ -1,0 +1,61 @@
+/* Container */
+/* Cards */
+.profile-card,
+.info-card,
+.security-card,
+.notification-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Section */
+.profile-card {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.profile-content h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.text-muted {
+  color: #666;
+}
+
+.button-group {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.outline-button {
+  background: transparent;
+  border: 2px solid #007bff;
+  color: #007bff;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.outline-button:hover {
+  background: #007bff;
+  color: #fff;
+}
+
+.primary-button {
+  background: #007bff;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 5px;}
